@@ -1,0 +1,39 @@
+## How to run python matplotlib  in WSL Graphic
+
+1. Install XLaunch for Wsl (Linux distro for Windows 10)
+	1. refer wsl-graphic-doc.txt 
+		full-file-path:(I:\dev-documentations\wsl-graphic-doc.txt)
+		
+	Note:  at here, we already have: WSL2, XLaunch or VcXsrv
+	
+	2.	install python3.8 tkinter
+		$ sudo apt-get update
+		$ sudo apt-get install python3.8-tk
+		
+	3. install matplotlib
+		$ sudo pip3 install matplotlib
+		
+	4. export display
+		$ vim ~/.bashrc
+		  export DISPLAY=:0.0
+		  obsoleted: export DISPLAY=`grep -oP "(?<=nameserver ).+" /etc/resolv.conf`:0.0
+		$ source ~/.bashrc  
+		
+	5. Now double-check firewall: 
+		Windows Security 
+			-> Firewall & network protection 
+				-> Allow an app through firewall 
+					-> make sure VcXsrv has both public and private checked
+					
+	6. Launch VcXsrv with "Disable access control" ticked:
+		double click: XLaunch
+		
+	7. Run python code:
+		$ cd /mnt/i/Develop_Chome_Extensions/applications/python/machine_learning
+		$ python3 first_plot.py
+		
+	Ref: 
+	[
+		1: https://stackoverflow.com/questions/43397162/show-matplotlib-plots-and-other-gui-in-ubuntu-wsl1-wsl2
+		2: https://medium.com/@dhanar.santika/installing-wsl-with-gui-using-vcxsrv-6f307e96fac0
+	]

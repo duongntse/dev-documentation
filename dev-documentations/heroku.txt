@@ -1,0 +1,40 @@
+#Application error
+heroku logs --tail
+
+heroku create hello-surge --buildpack mars/create-react-app
+git push heroku master
+heroku open
+
+# Specify the version of node in package.json
+"engines": {
+    "node": "10.x"
+  },
+# add Procfile
+  web: bin/boot
+#Deploy your application to Heroku
+    > git add .
+    > git commit -m "Added a Procfile."
+    > heroku login
+    > heroku create
+    > git push heroku master
+    > heroku open
+    
+# App not compatible with buildpack - Heroku
+// 1. First setup the buildpack (programming-language )
+    > heroku buildpacks:set heroku/nodejs
+// 2. git init and currently used directory is different, so this error is still thrown "App not compatible with buildpack:"
+    > git init
+// 3. push 
+    > git push heroku master
+// 4. open
+    > heroku open
+
+# Try to re-add the remote url.
+// Check for the current url 
+git remote -v
+
+// remove remote url
+git remote rm heroku
+
+// re-add the remote url
+git remote add heroku git@heroku.com:boiling-inlet-6957.git

@@ -1,0 +1,29 @@
+#Instroduction to run Nightwatch with Selenium: 
+         0: Clone nightwatch-starter 
+              git clone https://github.com/insighty-studio/nightwatch-starter
+         1: Follow Turorials from nightwatch for installation
+                 https://nightwatchjs.org/gettingstarted/installation/#install-selenium-server
+         2: Just Error Case!
+              Following those steps for installing Chrome Driver
+                   Download ChromeDriver 84.0.4147.30 for windows: https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/
+                   Notes Multiples Versions:  https://sites.google.com/a/chromium.org/chromedriver/downloads
+                   A: create new Directory and 
+                        C:\WebDriver\Chrome\bin\
+                   B: copy ChromeDriver zip file and extract the file to created directory :
+                        C:\WebDriver\Chrome\bin\chromedriver.exe
+                       Then set the windows Path:
+                               B.1: open command prompt by Administrator
+                               B.2: set it to path system of windows
+                                         setx /m path "%path%;C:\WebDriver\Chrome\bin\"
+                   C: From your project: update nightwatch.json to add "binary":
+                                 capabilities: {
+                                      'browserName': 'chrome',
+                                      "chromeOptions": {
+                                        'binary': "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+                                        args: [],
+                                        extensions: [],
+                                    }
+                    
+                           Note: if you run your project in wsl, just try to add the following
+                                      'binary': "/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+         3:  End!

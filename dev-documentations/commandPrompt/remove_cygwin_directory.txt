@@ -1,0 +1,7 @@
+
+Command Prompt: Remove "Cygwin64" directory
+   1 > takeown /f "c:\cygwin64" /r /d Y &  icacls "c:\cygwin64" /T /Q /C /reset & rd "c:\cygwin64" /s /q
+   2 > icacls "c:\cygwin64" /T /Q /C /reset
+   3 > rd "c:\cygwin64" /s /q
+    All in one 
+          > takeown /f "c:\cygwin64" /r /d Y &  icacls "c:\cygwin64" /T /Q /C /reset & rd "c:\cygwin64" /s /q

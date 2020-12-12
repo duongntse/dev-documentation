@@ -1,0 +1,37 @@
+# Creating an A Record: Freenom
+	Review: Signin 
+			Choose Domain
+			Add A Record
+			Examples
+			Checking DNS Propagation
+			Editing/Deleting DNS Records
+	https://support.cloudways.com/creating-a-record-freenom/
+	
+# Confirm DNS entries
+	Confirm your A records
+		dig +noall +answer www.harrygold.tk
+	Confirm your CNAME record
+		dig www.harrygold.tk +nostats +nocomments +nocmd
+		> ;www.harrygold.tk.              IN      A
+		> www.harrygold.tk.       3553    IN      A       173.212.207.202
+		> harrygold.tk.           253     IN      NS      ns04.freenom.com.
+		> harrygold.tk.           253     IN      NS      ns03.freenom.com.
+		> harrygold.tk.           253     IN      NS      ns02.freenom.com.
+		> harrygold.tk.           253     IN      NS      ns01.freenom.com.
+		> ns02.freenom.com.       13496   IN      A       52.19.156.76
+		> ns04.freenom.com.       522     IN      A       104.155.29.241
+		> ns03.freenom.com.       40619   IN      A       104.155.27.112
+		> ns01.freenom.com.       83448   IN      A       54.171.131.39
+
+# Managing a custom domain for your GitHub Pages site:
+	+ About custom domain configuration
+	+ Configuring a subdomain
+	https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
+
+# Configuring a custom domain for your GitHub Pages site:
+	+ About custom domains and GitHub Pages
+	+ Managing a custom domain for your GitHub Pages site
+	+ Troubleshooting custom domains and GitHub Pages
+	Ref:	https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site
+
+	

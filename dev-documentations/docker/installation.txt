@@ -1,0 +1,42 @@
+Prerequisites: WSL2
+	WSL2: https://docs.docker.com/docker-for-windows/wsl/
+1 - Running Docker containers on Bash on Windows
+		1-Installation Docker on Windows
+			+ install docker
+				ref: https://www.docker.com/get-started
+			+ Options: (after finished installation)
+					With Windows 10 Creators Update
+						-> simple solution
+				    With Windows 10 Anniversary Edition
+						-> need more steps
+						
+	ref: https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/
+	
+2 - Resolve Issues (completed above step)
+	Issue-1: The command 'docker' could not be found in this WSL 1. We recommend ...
+		# Bash: running command
+			$ hash -r
+		ref: https://github.com/docker/for-win/issues/7039
+			
+	Issue-2: Cannot connect to the Docker at tcp://localhost:2375 ...
+		+ Solution 1: Swich back from WSL2 to WSL1
+		+ Solution 2: Follow (https://github.com/docker/for-win/issues/7039)
+			
+		ref: https://forums.docker.com/t/wsl-and-docker-for-windows-cannot-connect-to-the-docker-daemon-at-tcp-localhost-2375-is-the-docker-daemon-running/63571/13
+
+
+Helper commands:
+	docker:
+		# Bash
+			$ docker images
+	Checking WSL2 running
+		# Windows PowserShell
+			> wsl.exe -l -v
+		
+	set WSL2 as default on Ubuntu
+		# Windows PowserShell
+			> wsl.exe --set-version Ubuntu 2
+			
+	Create a symbolic link on Ubuntu bash pointing to the Window
+		# Bash
+			$ sudo ln -s /mnt/c/Program\ Files/Docker/Docker/resources/bin/docker.exe /usr/bin/docker

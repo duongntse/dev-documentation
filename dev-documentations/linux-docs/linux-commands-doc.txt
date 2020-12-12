@@ -1,0 +1,37 @@
+# find bashrc file
+Windows:
+	Command Prompt: cd\ && dir *bashrc* /s
+Linux: 
+	find {search-path} {file-names-to-search} {action-to-take}
+	find / -name .bashrc
+	find "/mnt/c/Users/DuongNTSE/AppData/Local/BraveSoftware/Brave-Browser/User Data/Default" -name "timers-data*"
+
+	Windows: C:\Users\DuongNTSE\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default
+	
+# edit .bashrc
+	vim ~/.bashrc
+
+# PROJECT manipulations
+	ls - 1p
+	ls -1p public
+
+	rm -rf node_modules package-lock.json && npm install && npm start
+
+	cd /mnt/i/Develop_Chome_Extensions/applications/fullstack-react-book-code
+	cp -r boiler_plate_fullstack_react_2 test_live_server
+	cd /mnt/i/Develop_Chome_Extensions/applications/fullstack-react-book-code/voting_app
+	cp -R public/js/app-1.js public/js/app-1-ver2.js
+
+	code -r ~/.live-server.json
+
+
+base_site_name        : base_site_name     
+base_site_url         : base_site_url      
+full_chapter_url      : full_chapter_url   
+chapter_number_text   : chapter_number_text
+chapter_title         : chapter_title      
+comic_name            : comic_name         
+cover_img             : cover_img          
+time                  : time               
+raw_time              : raw_time           
+comic_url             : comic_url          

@@ -1,0 +1,10 @@
+time npx create-react-app latest-chapter-comics 
+cd latest-chapter-comics
+npm start
+
+npm install react-bootstrap bootstrap
+
+npm i bootstrap tachyons  // for bootstrap and tachyons css libraries
+npm i react-router-dom //installing common hooks in react
+npm i firebase // install firebase
+

@@ -1,0 +1,18 @@
+xpath
+# Python
+# scrapy shell 'http://quotes.toscrape.com/page/1/'
+#       response.xpath('//*[@class="quote"]/*[@class="text"]/text()')[0].extract()
+#       response.xpath("//*[contains(@class, 'text')]/text()")[0].extract()
+
+response.css('.quote span a').xpath('@href').get()
+response.xpath('//div[@id="images"]/a/text()').get()
+
+# Javascript
+# chrome browser
+# 	http://quotes.toscrape.com/page/1/
+#       $x("//div[@class='quote']/@class")[1].nodeValue
+#       $x("//input[@type='submit' and @name='btnLogin']")
+#       $x("//span[@class='text']")[0].innerText
+#		$x("//div[@class='quote']")[1].innerText
+#       $x("//*[contains(@class, 'text')]")[0].innerText
+

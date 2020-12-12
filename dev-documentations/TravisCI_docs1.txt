@@ -1,0 +1,40 @@
+#TravisCI
+
+1. sign up TravisCI
+      https://travis-ci.org/
+2. Once you're signed up, click on the + button and find your repository
+3. click on the big 'activate repo' button.
+4. To allow Travis CI to automatically log in Surge for us during deployment
+     we need to add SURGE_LOGIN and SURGE_TOKEN environment variables
+          a. Open "More Options"
+          b. Click "settings"
+                  Create variables:
+                           SURGE_LOGIN: duongntse@gmail.com
+                           SURGE_TOKEN: "type [surge token] to get the token in your terminal"
+                                   (note: and also run npm i surge -D)
+5. touch .travis.yml: 
+```
+        language: node_js
+        node_js:
+            - '12.13.0'
+        before_deploy:
+            - 'CI=false npm run build'
+        deploy:
+            provider: script
+            skip_cleanup: true
+            script: sh scripts/deploy.sh
+            on:
+                branch: master
+```
+6. push to github
+    > git add .travis.yml
+    > git commit -am "Added travis-ci configuration file"
+    > git push github master
+    
+5. Just Push project to Github, for continuous integration by TravisCI
+     travis will auto run: [build + test + deploy] through defined [.travis.yml]
+     
+6. visit page
+     https://likeable-side.surge.sh/
+     
+     note: the domain was defined in deploy.sh file

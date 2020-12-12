@@ -1,0 +1,8 @@
+# Custom domain for GitHub project pages
+	https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages
+	Review: 
+	Step 1: Enable GitHub pages in GitHub settings
+	Step 2: Specify custom domain in GitHub settings
+	Step 3: Create DNS entries
+	Step 4: Confirm DNS entries
+	Step 5: SSL (HTTPS) Configuration. Optional, but highly recommended

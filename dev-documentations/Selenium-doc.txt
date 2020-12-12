@@ -1,0 +1,37 @@
+Run Integration Test
+#window1
+    Start Selenium Server
+            # Open "Command Promp"
+            > java -jar D:\Download\selenium-server-standalone-3.141.59.jar
+#window2 
+   Start Localhost React Server from your Project
+            # Open "VSCode" with wsl terminal (Windows Subsystem for Linux)
+            > cd /mnt/d/Develop_Chome_Extensions/applications/30-days-react/react-router-demo
+            > cd /mnt/d/Develop_Chome_Extensions/applications/nightwatch-starter
+            > npm start
+#window3
+   Run Integration Test
+            # Open "VSCode" with wsl terminal (Windows Subsystem for Linux)
+             2.0: Change Directory to your project
+                      > cd /mnt/d/Develop_Chome_Extensions/applications/30-days-react/react-router-demo
+             2.1: If nightwatch was installed globally by NPM, then type:
+                      > nightwatch
+             2.2:  If you have "integration-test" in "scripts" in package.json then type:
+                      > yarn integration-test
+
+Notes:
+# Set .exe to system "path" on Windows
+      > open "Command Prompt"
+      > setx /m path "%path%;C:\Program Files\Java\jdk-14.0.2\bin"
+      > setx /m path "%path%;C:\WebDriver\Chrome\bin\"
+
+/mnt/c/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe
+/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe
+
+C:\\Program Files (x86)\\Google\\Chrome Dev\\Application\\chrome.exe
+C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\brave.exe
+
+"binary": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+"binary": "C:\\Program Files (x86)\\Google\\Chrome Dev\\Application\\chrome.exe"
+"binary": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+"binary": "/mnt/c/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe"

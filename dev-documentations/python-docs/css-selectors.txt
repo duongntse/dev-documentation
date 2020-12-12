@@ -1,0 +1,25 @@
+scrapy shell 'http://quotes.toscrape.com/page/1/'
+
+# CSS ::selection Selector
+
+	::selection {
+	  color: red;
+	  background: yellow;
+	}
+
+response.css('span[class="text"]::text').extract()    
+
+response.css('span[class="text"]::text').re(r'Quotes.*').get()
+
+response.css('.quote span a::attr(href)').get()
+
+response.css('.quote span a').xpath('@href').get()
+
+response.css('.quote span a').attrib['href']
+
+selector.css('img').xpath('@src').getall()
+
+next_page = response.css('li.next a::attr("href)').get()
+
+response.css('body > div.layout-column.flex:nth-child(1) > div#content.flex.bg-dark:nth-child(2) > div.container.py-5 > div.row:nth-child(4) > div.col-lg-9.col-md-8.col-xs-12.text-muted:nth-child(2
+   ...: ) > div.row.py-2:nth-child(3) > div.col-12 > div.card.p-4:nth-child(2) > div.list.list-row.row > div.list-item.col-sm-3.no-border:nth-child(1)').get()

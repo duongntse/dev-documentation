@@ -1,0 +1,161 @@
+CB:
+       +4: RM+CM+CB
+CAM:
+       +4: CDM+2GK
+       +5: RM, LM
+	   
+
+GK:CAM
+      +3: CB
+      +4: RW
+      +5: CM
+            Golovin
+
+ST:
+      +3: 4ST + 1GK (or) LB+ST
+          Balotelli CB+CF+2GK
+       +4: CM+LW+LB+CB 
+	       GKx3+CBx2
+		   3LW+ST
+           Balotelli: 2RW+GK   
+       +5: ST+CM+RW+LB+CB
+             ST: Crespo
+             CM:Ballack
+             RW:Mahrez
+             LB:Marcelo
+             CB:Nesta
+
+
+
+
+LW/RW:
+      +2: CM
+      +3: GK+CDM+CB, CAM+RW+CM, 
+	      Mahrez-RW: 2CM+1GK (25T)
+	      Willian-RW: 2GK+ST OR GK
+		              GK+RB
+             
+       +4: 97CM-97CDM-96GK-93CB, 
+	     Mahrez-RW: 1CAM+1CM+1GK (40T)
+	     Willian-RW: CAM+GK
+		             CM-97
+	     RW: 2LW+2CM
+             3LW+1CM 
+			 2LW+3CM, 
+             LW: Sanchez, Sterling,CR7,Hazard
+             CM: Tielemans,Vidal,F.Dejong,Ballack
+			 
+        +5: 4LW+1CM (or) 2LW+1ST+1CF+1CDM
+             Willian-RW: 
+             Mahrez-RW:  2CAM+2CM+1GK (135T)
+			            
+CB:
+      +3: 2GK+1ST, CM+GK+ST, GK+CAM
+	      David Luiz: ST+ST+LW
+      +4: CAM+LB+2CB
+	      2CB+1GK
+      +5: 3CB+1LB+1CM (or) 3CB+1LB+1CDM
+	      3CB+1LWB+1CM 
+		  David Luiz: 1CM+2CB+1LWB
+             CB: Puyol
+             LB: Carlos
+             CM:Kroos
+             CDM:Rijkaard
+       +6:3CB+1LB+1CM
+              CB:Puyol
+              LB:Carlos
+              CM:Kroos
+       +7: 3CB+1LB+1CM
+             CB:Nesta,Perrin
+             LB:Carlos
+             CM:Ballack
+LB:CM,ST
+RB:ST,CM
+      Emerson: X,RB/CM/LM,CB/CAM/CM,LW
+      +3: CAM > CM>ST>LW>CDM > GK > ST+ST > 3ST > 2ST+CM
+	      LB: CM+CAM+LM / LM+RM+ST
+		  LB: ST+CM+CAM
+		  Kolarov: GK+ST
+		  Marcelo: CB+LB
+      +4: CM>ST>RB > CM > RM (or)ST + CDM (or) ST + CM
+	      LB: CF+LW
+		      CB+CF+2RW
+			  LM+CF+ST
+			 Kolarov: 2LM+CF+ST / LB+ST
+			 Marcelo: CF+GK
+			 Alaba: 2ST+1CM+1CAM 
+			        LM+CB+CB
+			 
+	      RB: ST+CM+RB
+		      CB
+		  
+             Theo Hernandez-LB: ST
+             Wan-Bissaka-RB: CM
+             Dumfries-RB: CB
+			 Neville-RB: ST+CF
+      +5: CM>ST>LW > RW >  (or)CM+CAM(or)CAM(or)CM
+		  Neville-RB: ST+CB+CF
+	      Marcelo: 2ST+2LM+CF
+	      Kolarov: RB+RB
+	      Robertson: 2LM+2ST+CF
+	      Alaba: 3CAM+2ST
+	      LB: 5CM
+             T.Hernandez-LB: ST
+             Wan-Bissaka-RB: CM
+			 Dumfries-RB: CM
+             
+       +6: RW > CB+CDM
+	       ST+LW
+             CB: Van Dijk
+             CDM:Parolo
+CM,
+       Dejong: GK->(+3)CM,CB,ST,RM->(+4)CB,CM, LM->(+5)LW,LM,RM,CM,CDM,CF->(+6)LM,RM,CM [S.Larsson-CM]
+	                   RB->      
+	   Ballack: (+3)CM+3ST+LM
+	   Fellaini: (+3)LM,GK (+4)CB,CM+CAM (9T), (+5) 2GK+3CM (24T)
+	   Keane-CM: (+3)2LW+ST, (+4 36T)2LW+2ST
+	   Fellaini: ST,
+	   
+CDM:GK
+       +2: CAM
+       +3: RB <  CM < RM < CDM, CB+CDM+ST,
+              CM+LB(or)CAM+ST(or)2ST+1CM(or)ST+RB+GK(or)CM+GK+RB+CM
+			  CF+CB+ST+LB
+		   CM:CAM
+				:3CAM
+	          Veron:2ST+1CM
+				:1LW+2RW
+				:ST+CB
+        +4:CB < ST <2GK+1LB(or)CAM+ST(or)ST+LW+RB+CB
+		  CM:
+		      Schole: 2CAM+2ST
+			  Veron:ST+CM+RM+GK
+				2ST+CB
+				CDM+ST+CF+CB
+				LW+CB
+				2LW+2CAM
+              
+          +5: RB < CB < 2GK+3CM (or)CAM+ST(or)CAM+CAM(or)ST+CM(or)3CM+2ST
+              > GK+CM+CB
+			 CDM > GK | RW
+			 Paulinho: 3CM+2ST
+              
+               
+LM/RM: ST
+   +2: CB
+   +3: ST+CB
+       ST+CAM
+       CM+LW
+	   Perisic: 2LW+CB, 2LW+CAM, ST+2CB
+	   
+   +4: ST+CAM
+       Perisic: 1CF+2CB+1LW
+       2RW+2LW
+	   2CAM+CF+LW+CB
+	   Cuadrado-RM: CM+GK
+	   SonHeungmin-LM: 4CM
+   +5: 2LW+2LM+CM
+       2LM+ST+CF+CDM
+       2RM+ST+CF+CDM
+	   Son Heung Min(LM):CB+2CM+2CDM
+	   Perisic: 

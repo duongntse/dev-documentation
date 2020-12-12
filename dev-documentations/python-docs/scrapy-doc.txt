@@ -1,0 +1,51 @@
+Required: scrapy 2.4.0, python 3.8.2, pip 20.0.2
+
+1 - First Spider
+	$ cd /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/myfirstspider
+	$ scrapy runspider quotes_spider.py -o quotes.json
+
+	$ scrapy shell 'https://www.ldoceonline.com/dictionary/timid' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+
+	$ scrapy shell 'https://giphy.com/search/pencil' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+
+	$ scrapy shell 'https://readblackclover.online/manga/black-clover-chapter-272/' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+
+2 - Scrapy và Splash
+	required: Docker
+	https://medium.com/@doanhtu/scrapy-v%C3%A0-splash-s%E1%BB%B1-k%E1%BA%BFt-h%E1%BB%A3p-tuy%E1%BB%87t-v%E1%BB%9Di-c7745dc9ab56
+
+# 		dir(response) 
+#		response.__dict__
+
+#       response.css('html body div.container div.row div.col-md-8 div.quote div.tags a.tag::text').extract()
+		.extract() .extract_first()
+#       response.css('.quote .text::text')[0].extract()
+#       response.xpath('//*[@class="quote"]/*[@class="text"]/text()')[0].extract()
+
+1 - Second Spider
+$ cd /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling
+$ scrapy startproject tutorial
+$ cd tutorial
+$ virtualenv venv
+$ source venv/bin/activate
+$ scrapy crawl quotes
+
+# settings: (settings.py)
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+
+scrapy crawl onepiece -o items.jl -t jsonlines && scrapy crawl legendofnorthernblade -o items.jl -t jsonlines
+
+
+scrapy crawl onepiece && scrapy crawl legendofnorthernblade
+scrapy crawl comiconepiece && scrapy crawl comiclegendofnorthernblade
+""" ___scrapy commands ___
+scrapy crawl comiconepiece && 
+scrapy crawl comiclegendofnorthernblade
+
+"""
+""" ___scrapy commands ___
+scrapy crawl onepiece && 
+scrapy crawl legendofnorthernblade
+
+"""
+

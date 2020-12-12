@@ -1,0 +1,12 @@
+
+cd /mnt/d/Develop_Chome_Extensions/applications/30-days-react/react-router-demo
+cd /mnt/d/Develop_Chome_Extensions/applications/dontfeartheinternet
+cd /mnt/d/Develop_Chome_Extensions/applications/Webpack_React_Typescript_Dictionary
+cd /mnt/d/Develop_Chome_Extensions/applications/harrydashboard
+cd /mnt/d/Develop_Chome_Extensions/applications/hackernews-react-apollo
+cd /mnt/d/Develop_Chome_Extensions/applications/fullstack-react-code
+
+# Udemy
+cd /mnt/d/Daily_Works/Practices of Studying/Udemy
+cd /mnt/d/Daily_Works/Practices of Studying/Udemy/AdvancedWebDevBootCamp
+cd /mnt/d/Daily_Works/Practices of Studying/Udemy/WebDevBootCamp

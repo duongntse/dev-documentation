@@ -1,0 +1,6 @@
+\* deal with images causing a scrollbar. *\
+# you should still use the width and height attributes on your <img> tag to reserve space for the image.
+img {
+  max-width: 100%;
+  display: block;
+}

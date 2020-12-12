@@ -1,0 +1,20 @@
+# Tools Install:
+1. Brave Browser
+      Onetab
+      google translate
+      
+2. Windows Terminal
+3. VSCode
+4. WSL on Windows
+5. Ubuntu on Windows
+6. Search Everything
+7. Meta Trader 5 - Exness
+8. Steam
+9. Garena
+      Fifaonline4
+10: Nodepad++
+11: OpenOffice
+12: ezvid
+13: Photoshop
+14: Alarm&Clock
+15: Torch Browser

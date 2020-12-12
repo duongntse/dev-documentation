@@ -1,0 +1,51 @@
+# RENAME UNSAFE_
+time npx react-codemod rename-unsafe-lifecycles
+
+#INIT-7m
+time create-react-app my-demo-app && cd my-demo-app
+
+#START-20s/15s
+cd 30-days-react/react-router-demo
+time npm start
+
+#ROUTER-12m/40s
+time npm install react-router-dom axios -S
+
+#SASS
+time npm install node-sass --save
+
+#REDUX
+time npm install -S redux react-redux
+
+#RE-RENDER-1m
+time npm i -D react-snapshot
+
+# TIME
+time npm i -S moment
+npm install moment-timezone --save
+
+# TEST-2m33s
+time npm i -D babel-jest babel-preset-stage-0 enzyme enzyme-adapter-react-16 jest-cli react-addons-test-utils react-test-renderer redux-mock-store sinon
+
+# react-live-clock(-38s)  
+time npm i -S react-live-clock
+
+# csv-parser
+time npm install d3 -D(1m10s)
+time npm i -D csv-parser (29s)
+npm i -D react-papaparse (43s)
+
+#node automated testing framework (41s)
+time npm install --global nightwatch
+
+# Chrome Driver (2m10s)
+npm install chromedriver --chromedriver-force-download
+time npm install chromedriver -D
+
+# Selenium Server (31s)
+time npm install selenium-server -D
+
+nightwatch tests/auth-flow.js
+nightwatch --env chrome
+nightwatch --env firefox
+nightwatch --env safari

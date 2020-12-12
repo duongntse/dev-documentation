@@ -1,0 +1,35 @@
+
+
+cd /mnt/i/Develop_Chome_Extensions/applications/latest-chapter-comics && npm start
+cd /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/latestChapterComic/latestChapterComic && python3 run.py
+cd /mnt/i/Develop_Chome_Extensions/applications/fullstack-react-code/testing/react-basics && npm start
+cd /mnt/i/Develop_Chome_Extensions/applications/fullstack-react-code/food-lookup-complete/client && npm i
+bash -c "cd /mnt/i/Develop_Chome_Extensions/applications/fullstack-react-code/food-lookup-complete && npm i && cd client && npm i" npm audit fix
+bash -c "cd /mnt/i/Develop_Chome_Extensions/applications/fullstack-react-code/food-lookup-complete && npm audit fix && cd client && npm audit fix" 
+
+https://jestjs.io/docs/en/setup-teardown
+
+crontab -e
+sudo /etc/init.d/cron restart
+sudo /etc/init.d/cron start
+
+
+# hosting services:
+services.surge.sh (https://surge.sh/)
+github pages (https://pages.github.com/)
+heroku (https://www.heroku.com/)
+AWS S3 (https://aws.amazon.com/s3/)
+Forge (https://getforge.com/)BitBalloon (https://www.bitballoon.com/)
+Pancake (https://www.pancake.io/)
+... More
+
+# surge
+npm i -g surge
+
+# jq
+      jq '.homepage = "http://github.com/duongntse/30-days-of-react-demo(https://github.com/duongntse/30-days-of-react-demo)"' > package.json
+
+# Copy content of a file to clipboard
+cat ~/.ssh/id_rsa.pub
+
+I:\Develop_Chome_Extensions\applications\fullstack-react-code\food-lookup-complete\client

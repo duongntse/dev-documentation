@@ -1,0 +1,11 @@
+## CURL
+    # GET request
+        response with formated json by jq tool
+            curl -X GET localhost:3000/api/timers  |  jq '.'
+        filtered by id 
+            curl -X GET localhost:3000/api/timers  |  jq '.[] | { id }'
+    # POST request
+        curl -X POST -H 'Content-Type: application/json' -d '{"start":1456468632194,"id":"a73c1d19-f32d-4aff-b470-cea4e792406a"}' localhost:3000/api/timers/start
+        
+    # PUT request
+        curl -X PUT -H 'Content-Type: application/json' -d '{"title":"XDrake Singing","project":"Singing","id":"a73c1d19-f32d-4aff-b470-cea4e792406a"}' localhost:3000/api/timers        

@@ -1,0 +1,169 @@
+<html>
+ <head>
+  <base href='http://example.com/' />
+  <title>Example website</title>
+ </head>
+ <body>
+  <div id='images'>
+   <a href='image1.html'>Name: My image 1 <br /><img src='image1_thumb.jpg' /></a>
+   <a href='image2.html'>Name: My image 2 <br /><img src='image2_thumb.jpg' /></a>
+   <a href='image3.html'>Name: My image 3 <br /><img src='image3_thumb.jpg' /></a>
+   <a href='image4.html'>Name: My image 4 <br /><img src='image4_thumb.jpg' /></a>
+   <a href='image5.html'>Name: My image 5 <br /><img src='image5_thumb.jpg' /></a>
+  </div>
+ </body>
+</html>
+
+# 1 - Open the shell
+	scrapy shell https://docs.scrapy.org/en/latest/_static/selectors-sample1.html
+# 2 - Dealing with HTML
+	Using selectors:
+		text 
+			Xpath
+				a - To actually extract the textual data                                      		# 
+					>>> response.xpath('//title/text()').getall()                             		# xpath : text(), getall()
+						['Example website']                                                   		#       
+					>>> response.xpath('//title/text()').get()                                		# xpath : text(), get()
+						'Example website'                                                     		#       
+					>>> response.xpath('//div[@id="images"]/a/text()').get()                  		# xpath : @id, text(), get()
+						'Name: My image 1 '                                                   		#       
+					>>> response.xpath('//div[@id="not-exists"]/text()').get(default='not-found')   # xpath : @id, text(), get(default='not-found')
+						'not-found'                                                                 #       
+					>>> response.xpath('//div[@id="not-exists"]/text()').get() is None              # xpath : @id, text(), get(), is None
+						True                                                                        # 
+			CSS selector                                                                            #
+					>>> response.css('title::text').get()											# css  	: ::text, get()
+						'Example website'                                                           # 
+						                                                                           NOTE: select all descendant text nodes of the current selector context 
+					>>> response.css('#images *::text').getall()									# css 	: #images, *::text, getall()
+						['\n   ',                                                                   #
+						 'Name: My image 1 ',                                                       #
+						 '\n   ',                                                                   #
+						 'Name: My image 2 ',                                                       #
+						 '\n   ',                                                                   #
+						 'Name: My image 3 ',                                                       #
+						 '\n   ',                                                                   #
+						 'Name: My image 4 ',                                                       #
+						 '\n   ',                                                                   #
+						 'Name: My image 5 ',                                                       #
+						 '\n  ']                                                                    #
+				
+			
+		attribute values: src, href         						
+			>>> response.css('img').xpath('@src').getall()             						# css + xpath: img, @src, getall()
+				['image1_thumb.jpg',                                   						#
+				 'image2_thumb.jpg',                                   						#
+				 'image3_thumb.jpg',                                   						#
+				 'image4_thumb.jpg',                                   						#
+				 'image5_thumb.jpg']                                   						#
+			>>> response.css('img').attrib['src']                      						# css		: img, attrib['src']
+				'image1_thumb.jpg'                                     						#
+			>>> response.css('base').attrib['href']                    						# css		: base, attrib['href']
+				'http://example.com/'                                  						#
+			>> response.xpath('//base/@href').get()                    						# xpath		: base, @href, get()
+				'http://example.com/'                                  						#
+			>>> response.css('base::attr(href)').get()                 						# css		: base, ::attr(href), get()
+				'http://example.com/'                                  						#
+			>>> response.xpath('//a[contains(@href, "image")]/@href').getall()              # xpath		: a[contains[@href, "image")]], @href, getall()
+				['image1.html',                                                             #
+				 'image2.html',                                                             #
+				 'image3.html',                                                             #
+				 'image4.html',                                                             #
+				 'image5.html']                                                             #
+																						 NOTE: selects the href attribute value of descendant links:
+			>>> response.css('a::attr(href)').getall()                                      # css		: a, ::attr(href), getall()
+				['image1.html',                                                             #
+				 'image2.html',                                                             #
+				 'image3.html',                                                             #
+				 'image4.html',                                                             #
+				 'image5.html']                                                             #
+			>>> response.css('a[href*=image]::attr(href)').getall()                         # css		: a[href*=image], ::attr(href), getall()
+				['image1.html',                                                             #
+				 'image2.html',                                                             #
+				 'image3.html',                                                             #
+				 'image4.html',                                                             #
+				 'image5.html']                                                             #
+			>>> [a.attrib['href'] for a in response.css('a')]								# [a.attrib['href'] for a in response.css('a')]
+				['image1.html', 'image2.html', 'image3.html', 'image4.html', 'image5.html'] #
+			>>> response.xpath('//a[contains(@href, "image")]/img/@src').getall()           # xpath		: a[contains(@href, "image")], img, @src, getall()
+				['image1_thumb.jpg',                                                        #
+				 'image2_thumb.jpg',                                                        #
+				 'image3_thumb.jpg',                                                        #
+				 'image4_thumb.jpg',                                                        #
+				 'image5_thumb.jpg']                                                        #
+			>>> response.css('a[href*=image] img::attr(src)').getall()                      # css		: a[href*=image], img, ::attr(src), getall()
+				['image1_thumb.jpg',                                                        #
+				 'image2_thumb.jpg',                                                        #
+				 'image3_thumb.jpg',                                                        #
+				 'image4_thumb.jpg',                                                        #
+				 'image5_thumb.jpg']                                                        #
+																					NOTE: return a dictionary or empty {}
+			>>> response.css('base').attrib                                                 # css		: base, attrib
+				{'href': 'http://example.com/'}                                             # css		: base, attrib
+			>>> response.css('foo').attrib                                                  #
+				{}                                                                          #
+			>>> response.css('base').attrib['href']                                         # css       : base, attrib['href']
+				'http://example.com/'                                                       #
+				
+	Nesting selectors:                                                                              #
+		>>> links = response.xpath('//a[contains(@href, "image")]')                                 # xpath: links = //a[contains(@href, "image")]
+		>>> links.getall()                                                                          #        links.getall()
+		['<a href="image1.html">Name: My image 1 <br><img src="image1_thumb.jpg"></a>',             #
+		 '<a href="image2.html">Name: My image 2 <br><img src="image2_thumb.jpg"></a>',             #
+		 '<a href="image3.html">Name: My image 3 <br><img src="image3_thumb.jpg"></a>',             #
+		 '<a href="image4.html">Name: My image 4 <br><img src="image4_thumb.jpg"></a>',             #
+		 '<a href="image5.html">Name: My image 5 <br><img src="image5_thumb.jpg"></a>']             #
+		>>> for index, link in enumerate(links):                                                    # for index, link in enumerate(links)
+		...     href_xpath = link.xpath('@href').get()                                              #      href_xpath = xpath: @href, get()
+		...     img_xpath = link.xpath('img/@src').get()                                            #      img_xpath  = xpath: img/@src, get()
+		...     print(f'Link number {index} points to url {href_xpath!r} and image {img_xpath!r}')  #      print(f'...'), {index} {href_xpath!r},  {img_xpath!r}
+		Link number 0 points to url 'image1.html' and image 'image1_thumb.jpg'                      #
+		Link number 1 points to url 'image2.html' and image 'image2_thumb.jpg'                      #
+		Link number 2 points to url 'image3.html' and image 'image3_thumb.jpg'                      #
+		Link number 3 points to url 'image4.html' and image 'image4_thumb.jpg'                      #
+		Link number 4 points to url 'image5.html' and image 'image5_thumb.jpg'                      #
+																									#
+	Using selectors with regular expressions	                                            #
+		>>> response.xpath('//a[contains(@href, "image")]/text()').re(r'Name:\s*(.*)')      # xpath: //a[contains(@href, "image")], /text(), .re(r'Name:\s*(.*)')
+		['My image 1',                                                                      #
+		 'My image 2',                                                                      #
+		 'My image 3',                                                                      #
+		 'My image 4',                                                                      #
+		 'My image 5']                                                                      #
+		>>> response.xpath('//a[contains(@href, "image")]/text()').re_first(r'Name:\s*(.*)')# xpath: //a[contains(@href, "image")], /text(), .re_first(r'Name:'\s*(.*)')
+		'My image 1'		                                                                #
+				 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				 

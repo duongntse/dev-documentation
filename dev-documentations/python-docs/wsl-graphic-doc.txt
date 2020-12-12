@@ -1,0 +1,21 @@
+How to install WSL width GUI
+
+From https://medium.com/@dhanar.santika/installing-wsl-with-gui-using-vcxsrv-6f307e96fac0
+	1. Installing WSL:
+		a: "Programs and Features": 
+			"Turn Windows features on or off" from 
+				+ check "Windows subsystem for Linux"
+		b: Open Microsoft Store 
+			install Ubuntu 18.04 LTS
+		c: update linux
+			$ sudo apt-get update
+			$ sudo apt-get upgrade
+	2. download and install VcXsrv or Windows X-server, the graphical part.
+		Download https://sourceforge.net/projects/vcxsrv/
+		Installing VcXsrv,
+	3. launch "XLaunch"
+		Choose: 
+			a: One Large Window
+			b: Start no client
+			c: [check] Disable access control
+	

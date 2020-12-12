@@ -1,0 +1,37 @@
+1 - Installing packages for your project
+	$ cd /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/example1
+	$ pipenv install requests
+	$ touch main.py
+
+	```main.py
+
+		import requests
+
+		response = requests.get('https://httpbin.org/ip')
+
+		print('Your IP is {0}'.format(response.json()['origin']))
+
+	```
+	$ pipenv run python main.py
+
+2 - Lower level: virtualenv
+	# INSTALLATION
+		$ pip install virtualenv
+		$ virtualenv --version
+	# USAGE
+		# CHOOSE A PROJECT
+			$ cd /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/example1
+		# CREATE A VIRTUAL ENV FOR A PROJECT
+			$ virtualenv venv
+		# ACTIVATE VIRTUAL ENV
+			$ source venv/bin/activate
+		# INSTALL PACKAGES
+			(venv)$ pip install requests
+		# DEACTIVATE VIRTUAL ENV
+			$ deactivate
+		# TO DELETE A VIRTUAL ENVIRONMENT
+			$ rm -rf venv
+		# INSTALL  virtualenvwrapper
+			https://medium.com/@gitudaniel/installing-virtualenvwrapper-for-python3-ad3dfea7c717
+			
+			

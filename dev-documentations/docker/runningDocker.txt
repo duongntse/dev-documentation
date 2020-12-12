@@ -1,0 +1,5 @@
+# Create a symbolic link on Ubuntu bash pointing to the Windows
+	$ sudo ln -s /mnt/c/Program\ Files/Docker/Docker/resources/bin/docker.exe /usr/bin/docker
+# 
+	$ docker images
+

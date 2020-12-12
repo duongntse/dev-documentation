@@ -1,0 +1,7 @@
+1 - Copyright:
+	Parameters: 
+		+ Chanel Name: Youtube Music
+		+ My Email: music@gmail.com
+	Content:
+		[Chanel] is just a non-profit channel to promote music and relax. If you are an artist/organization that believes videos are copyrighted, please do not remove them. Please send me a message via email: [Email], I will take down immediately.
+2 - 

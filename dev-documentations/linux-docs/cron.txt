@@ -1,0 +1,33 @@
+# Schedule Task, hourly, daily, weekly, monthly
+
+./runSpidersSchedule.sh
+
+# To check to see if the cron daemon is running 
+ps -ef | grep crond
+
+sudo /etc/init.d/cron start
+sudo /etc/init.d/cron stop
+sudo /etc/init.d/cron restart
+
+
+
+crontab -l : List the all your cron jobs.
+crontab -r : Delete the current cron jobs
+crontab -e: Edit cron
+
+# runs task schedule first day of each month at 9 PM
+0 9 1 * * /path/to/script/backup-script.sh 
+
+#  runs task every day at 10 AM.
+0 10 * * * /path/to/myphpscript.php 
+
+# runs task hourly
+0 * * * * /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/latestChapterComic/latestChapterComi/runSpidersSchedule.sh 
+
+# runs task every minute
+* * * * * echo ‘Run this command every minute’ >> /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/latestChapterComic/latestChapterComi/cronOuputMinute.log
+
+
+***** runSpidersSchedule.sh
+	cd /mnt/i/Develop_Chome_Extensions/applications/python/web-crawling/latestChapterComic/latestChapterComic && python3 run.py
+*****

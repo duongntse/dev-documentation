@@ -1,0 +1,9 @@
+{
+  "Title": "Transform To Title Case",
+  "key": "ctrl+T ctrl+C",
+}
+
+{
+  "Title": "Prettify JSON"
+  "key": "ctrl+P ctrl+J",
+}
