@@ -1,0 +1,3 @@
+# GraphQLHub is a GraphQL service
+curl -H 'Content-Type:application/graphql' -XPOST https://www.graphqlhub.com/graphql?pretty=true -d '{ hn { topStories(limit: 2) { title url } } }'
+
