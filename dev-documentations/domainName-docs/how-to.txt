@@ -1,12 +1,32 @@
 # Creating an A Record: Freenom
-	Review: Signin 
+	Review: Signin
 			Choose Domain
 			Add A Record
 			Examples
 			Checking DNS Propagation
 			Editing/Deleting DNS Records
 	https://support.cloudways.com/creating-a-record-freenom/
-	
+
+	1. Update DNS MANAGEMENT for harrygold.tk
+		link: https://my.freenom.com/clientarea.php?managedns=harrygold.tk&domainid=1094947131
+
+		Name - Type - TTL  - Target
+				A     3600   185.199.109.153
+				A     3600   185.199.110.153
+				A     3600   185.199.111.153
+				A     3600   185.199.108.153
+		WWW  - CNAME- 3600 - Duongntse.github.io
+
+	2. Update Github custom domain
+		link: https://github.com/duongntse/react-comics/settings
+
+		Custom domain: www.harrygold.tk
+
+	3. Checking DNS Propagation
+		https://www.whatsmydns.net/#A/www.harrygold.tk
+
+	4. Add "www.harrygold.tk" to CNAME file then deploy to Github ghPage
+
 # Confirm DNS entries
 	Confirm your A records
 		dig +noall +answer www.harrygold.tk
@@ -34,4 +54,4 @@
 	+ Troubleshooting custom domains and GitHub Pages
 	Ref:	https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site
 
-	
+

@@ -1,0 +1,8 @@
+# Working Linux Commands
+python3 run.py && cp items.json /mnt/c/users/duongntse/desktop/projects/react-comics/src/api/
+
+# Tasks:
+    [x] Restructure item.json return from "latestChapterComicVer2" project
+    [ ] Upgrade ComicChapters-2.js by new items.js structure
+    [x] fix moment.date.format("DD MMMM YYYY HH:mm:ss"), changed [hh:mm:ss] to [HH:mm:ss]
+        in files: Blackclover.py, Manganelo.py, Murimlogin.py, Nettruyen.py, helpermoment.py
