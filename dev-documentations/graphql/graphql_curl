@@ -1,0 +1,7 @@
+curl -XGET http://localhost:4000/graphql |  jq '.'
+
+curl -XPOST http://localhost:4000/graphql |  jq '.'
+
+curl -XPOST -H 'content-type:application/graphql' http://localhost:4000/graphql -d '{ viewer }' |  jq '.'
+
+curl -XGET -H 'content-type:application/graphql' https://infinite-garden-03141.herokuapp.com/graphql -d '{  __schema { queryType { name fields { name type { name } } } } }' |  jq '.'

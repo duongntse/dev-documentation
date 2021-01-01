@@ -9,13 +9,16 @@ Required: scrapy 2.4.0, python 3.8.2, pip 20.0.2
 	$ scrapy shell 'https://giphy.com/search/pencil' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
 
 	$ scrapy shell 'https://readblackclover.online/manga/black-clover-chapter-272/' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
-    
+
 	$ scrapy shell 'http://www.nettruyen.com/truyen-tranh/dao-hai-tac-9169' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+
+	$ scrapy shell 'https://mangapark.net/manga/the-undefeatable-swordsman' -s 'USER_AGENT'='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+
 2 - Scrapy và Splash
 	required: Docker
 	https://medium.com/@doanhtu/scrapy-v%C3%A0-splash-s%E1%BB%B1-k%E1%BA%BFt-h%E1%BB%A3p-tuy%E1%BB%87t-v%E1%BB%9Di-c7745dc9ab56
 
-# 		dir(response) 
+# 		dir(response)
 #		response.__dict__
 
 #       response.css('html body div.container div.row div.col-md-8 div.quote div.tags a.tag::text').extract()
@@ -40,12 +43,12 @@ scrapy crawl onepiece -o items.jl -t jsonlines && scrapy crawl legendofnorthernb
 scrapy crawl onepiece && scrapy crawl legendofnorthernblade
 scrapy crawl comiconepiece && scrapy crawl comiclegendofnorthernblade
 """ ___scrapy commands ___
-scrapy crawl comiconepiece && 
+scrapy crawl comiconepiece &&
 scrapy crawl comiclegendofnorthernblade
 
 """
 """ ___scrapy commands ___
-scrapy crawl onepiece && 
+scrapy crawl onepiece &&
 scrapy crawl legendofnorthernblade
 
 """
