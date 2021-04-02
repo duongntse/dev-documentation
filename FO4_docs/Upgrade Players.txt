@@ -30,6 +30,14 @@ Varane-CB-70T: 94-98
 +3-96: x + 20T + 60T= x + 80T
 +4-98: x+ 20T + 60T + 112T = x + 192T
 
+Perisic-LM-93:
+    +4: RW-97 + RW-96 + CAM-95
+    +5: 2x-RW-97 + LM-97+ RM-98 + CAM-96 (70)
+
+David Luiz: 
+    +3: LM + CM
+    +4: 
+
 Critiano Ronaldo ST +4 104 to [+5] [106]                                   97
     +1 Paulo Futre LW 106          ICON                                LW      99          +1
     +1 J. Lehmann GK 106           ICON                                GK       99          +1
