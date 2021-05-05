@@ -1,0 +1,176 @@
+De Gea: 
+ +3: CDM-93
+ +4: ST-95
+ +4: CB-96 + RB-95
+Stegen-GK-94:
+   +2: CDM-94
+   +3: 2RB-94, CDM-95
+   +4: 2RB-96, 2RM-96
+
+Mendy-GK:
+   +5: ST-95, CAM-95, CM-92
+
+Buffon: 
+   +5: ST
+   
+M. ter Stegen-GK-90: 
++3: RW, CF, ST
++4: RW, LM, ST
+    3LW-94
++5: CB+RB+CB
+    3CB+1LB
+    3CB+2RB
+
+Neto: 
++4: RW
++5: CB
+
+E. Mendy-GK
+        +3: ST
+        +4: CM, LM
+        +5: GK + CM
+		
+Neuer-GK:
+   +3: CAM, RB, CDM, ST (Childwell-LB)
+   +4: LM + RB (Piszczek-RB)
+   +5: CB+RB
+
+T. Courtois-92:  
+    +3: 2GK+CM, CM+LM+CB, 2CM+LM
+    +4: 2GK+2CM, 3GK+CM, CB+RM+CM ,CB+LB+CM, GK+CM
+    +5: 4GK+RM, 2GK+RB, 4GK+CM
+
+Emerson-LB-70
++2: 3CDM-69
+ 
+Jordi Alba-LB:    
+     +6: 4LW + 1CM: (Successed)
+	 
+Marcelo-LB:     
+     +3: CAM| Koulibaly + Mata (CAM) | J.Gomez (CB)+Hummels (CB)+Carvajal (RB)
+     +4: CB, CF+GK
+            Hummels(CB) + Casemiro(CDM) + Parejo(CM) + Hummels(CB) + Busquets(CDM)
+     +5: CM,  2ST+2LM+CF
+
+     +6: RW > CB+CDM
+	     (105T) 4CB-98 + CB-96
+	       ST+LW
+             CB: Van Dijk
+             CDM:Parolo
+
+Piszczek-RB
+   +5: RM-98
+
+Neville-RB
+   +4: CM-96
+   +5: ST-97+RM-96
+
+Sergi Roberto-RB:
+   +3: RB
+   +4: CM
+   +5: RM, 4CM + 1LM
+   
+S. Dest-RB:
+   +2: CAM-91
+   +3: RB, CDM-94
+   +4: CM, CM+CDM
+   +5: RM. 4CM + 1LM
+
+Mbabu-RB-90:
+     +4: 2CM+CDM
+     +5: Oblak-GK-94-x5
+	 
+Hakimi-RB-84:
+     +3: CM, LB, CB
+     +4: CM, ST
+     +5: RW, CM+CAM, CAM, CM 
+     +6: CB+CDM 
+     +7: 5CM, 3RW+3CB
+	 
+Carvajal-RB-94:
+     +4-98: RB+3CM, CM+CF+CDM+CAM+CB, 3GK
+                  Carvajal-RB-96+deJong-CM-96+Ballack-CM-96-x2
+                  Jong-CM-96+Griezmann-CF-96+Keane-CDM-96+Fekir-CAM-95+Koulibaly-CB-96
+                  Patricio-GK-97-x2+Neuer-GK-97
+     +5-100: RB+4GK 
+                   Carvajal-RB-94(+4)+Patricio-GK-98-x2+Courtois-GK-98-x2
+
+Yedlin-RWB:
++4: ST
++5: ST + ST
+  : CAM, CF, CB-97, ST, RM
++6: LM-98, 
++7: 3LM [Failed]
+
+Eder Militao-CB:
+     +4: 3LB-94+1CB-95
+     +5: 3CB+1LB+1CM
+	 
+Hasebe-CB-88:
+    +5-96-40T: 3CB+LB+CM
+	
+Koeman-CB-100:
+    +2: Khedira-CM-96, GK-Navas-96k CAM-100, RM-97, 2-RW-97
+    +3: 4CB-97 + 1CM-97
+	
+Pepe-CB-92:
+    +3: CF+RB, LB+CB+CM, ST+CAM+GK
+    +4: 2CB+LB+CM, 4CM
+    +5: 3CB+LB+CM
+	
+Cannavaro-CB-88: 
+    +6: Nesta-CB-96-x3+Marcelo-LB-96+Ballack-CM-96
+	
+R. Varane-CB-88:
+    +5-94-35T:CB+CM, CM+CDM+ST, CM+CB+RB, CB+GK
+    +6-96-45T: 3CB+LB+CM
+                Puyol-CB-94-x3+Carlos-LB-94+Kroos-CM-94(x1 successful)
+               (Hummel-CB-94-x3+Marcelo-LB-94+Ballack-CM-94)(x2 successful)(TRY)                
+    +7-99-90T: 3CB+LB+CM
+                Nesta-CB-96-x2+Perrin-CB-96+Carlos-LB-96+Ballack-CM-96(x1 successful)
+
+L. Blanc-CB-93:
+    +3: CAM+LM
+    +4: CDM+CAM+LW+RB, 4CAM-95, LM-96+CAM-95+LM-94, CAM+RM
+        1ST+2CDM
+        2RW+1CM
+    +5: CAM+RM+LW, 
+	    4CAM + 1RM
+		2LM + 3CAM
+		
+David Luiz-CB:
+    +3: CB+CAM, 
+    +4: 2LW + 1RW, CDM+RM, CDM+RW+ST, LW+CDM (12:55 PM)
+    +5: 5-CAM-95
+	    RW+ST+CM
+	    RM-98+ST-97+CAM-95
+	    CF-98+2LW-95
+	    3CM+1LM, 4CM+1CAM, 3CAM+CM+CDM, 2CB (96,95)
+    +6: 3CM+2LM, 4CM+1CAM, 3CAM+CM+CDM, 3CB+1LB+1CM
+	    (68T) CM-98+LW-98+LM-99 [Failed]
+		(56T) 2LW-98 + CB-98 + CB-94 [Failed]
+		(56T) LW-98 +RW-98 + LW-98 + ST-95 + CB-94 [Failed]
+		(90T) CM-99 + RM-99 + ST-97
+		(90T)RM-99 + CM-99 + GK-97
+    +7: 3CB+1LB+1CM
+	
+Abiol-CB-93:
+     +4-97-110T:
+     +5-99-175T: 
+                  Puyol-CB-97-x3+Carlos-LB-97+Kroos-CM-97
+				  
+Ramos-CB-93:
+     +2-94-24: 
+                 Gomez-CAM-94+Coman-LM-93+Arnol-RB-93+Sheringham-ST-93
+     +3-95-24T:
+                 Crespo-ST-96+Blanc-CB-95
+                 Golovin-CM-93+Pulisic-LW-93+Azpilicueta-RB-93+Arnol-RB-93
+                 Kane-ST-94+Figo-RW-94+Gomez-CAM-94
+     +4: 2CB+CM
+     +5: 3CB+LB+CM, 3CB+LB+CDM, 
+         (3Hummel + 1Marcelo + 1Ballack)(x2 successful)
+         (3Puyol + 1Carlos + 1Rijkaard)(x1 successful)
+
+D.Godin-CB-100:
+    +1-100-86T:
+	+2-101-86T: 1RW99 + 3XX97

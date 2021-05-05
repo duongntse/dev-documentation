@@ -1,0 +1,74 @@
+Hazard-LW-92-6T:
+    +3-94 25T: CAM+RW+CM              
+    +4-96 35T: 3LW+1CM
+    +5-98 110T: 4LW+1CM
+Rodrygo-LW-92-6T:
+    +1-92  6T: 
+    +2-93  10T:  Lopez-GK-94, Deco-CAM-94
+    +3-94 23T: 2RW+CM
+               2RW+CM
+               2LW+LM
+               ST+RM
+               CAM+LM+LW
+    +4-96-32:   2RW+2CM
+    +5-98-145T: 2LW+ST+CF+CDM
+
+Sane-LW-92
+        +4-96-35T:  2LW+2CM
+        +5-96-90T:  2LW+ST+CF+CDM  
+                   
+Ronaldinho-LW-99:
+    +1-99-67T:
+	+2-100-40T: 5-XX
+
+G. Bale-91-RW:
+    +3: 3GK, 3CB, 2CB+GK, LM+LW, LM+ST, CB+CDM, ST+LW, 2LW, CM+ST, CM+CB
+    +4: 2CM+LM+GK, LB+2CDM+LM, 2ST+LM+GK, CDM+3ST
+    +5: RW+LB+3ST
+
+M.Salah-RW-100:
+    +1-100-86T:
+	+2-101-76T: 1CDM98 + 2CM97 + 2CM96
+
+M.Salah-RW-100:
+    +1-100-86T:
+	+2-101-83T: 1CDM98 + 3CM97 + 1CM95
+
+
+Nistelrooy-ST-95:
+    +3-97-65T:   CAM+LW+LB+CB
+    +4-99-136T:  CAM+LW+LB+CB
+    +5-101-625T: CAM+LW+ST+LB+CB, 4LM+LW                 
+                 Nesta-CB-97-x5-TRY
+                 CAM-X5-TRY
+                 GK-X5-TRY
+
+Higuain-ST-92:
+    +3: LW+RW+CDM, CM+LM+CM, ST+CM, RW+ST, CDM+CM+ST, 2CAM+CDM, ST+CF+CAM, ST+LW, CB+CDM
+    +4: RW+LW+2CM, 2CM+LW, LW+ST+LM, 2CM+ST, CF+LW+CB
+    +5: ST+CM+RW+LB+CB ,
+        LW+GK+ST+CAM+CM, 
+        ST+ST+ST+ST+GK
+	
+Benzema-ST-91:
+    +4: ST+CM+RW+CDM, ST+CAM+CDM
+    +5: LW+CB+CM+ST, 5CAM
+		  
+T.Henry-ST:
+    +1-99-98T:
+    +2-100-72T: 3XX97+1XX96
+    +3-101-145T: 1RM99 + 2RM98 + 1LM98 + 1LW99
+    +4-103-562T: ST+CM+RW+LB+CB, 3X101+2X99
+	      RW-101+CB-101+CM-101+ST-101
+
+Ronaldo-ST-100:
+    +3: CAM+LM+RM+RW+LM (170T)
+	    
+H.Kane-ST-100:
+    +1-100-96T:
+	+2-101-60T: 1RW98 + 3XX97 + 1CB96
+
+R. Gullit-98-CF
+    +1-98-23T:
+	+2-99-68T: 1RW98 + 3XX97 + 1CB96
+	+3-100-190T: 3LW98 + GK98 + CB86

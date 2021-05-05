@@ -1,0 +1,114 @@
+Kimmich-CDM:
+ +5: CM
+ 
+Petit-CM-99:
++2: 1RB-96
++3: 3CM-96 + 1CB-96 + 1RB-96
+
+L.Matthaus-CDM-102:
+  +2: 2ST + 3CAM
+
+Fabinho-92-CDM-5T
+     +3: ST-x2+CAM-x1
+     +4: 2CAM+2ST
+                 Bruyne-CAM-94+Kane-ST-94+Eriksen-CAM-94+Werner-ST-94-
+     +5: 3CAM+2ST
+                 Silva-CAM-96-x2+Deco-CAM-96+Lukaku-ST-96+Kane-ST-96
+
+Kante-CDM-93:
+     +3: 2CB+CM, 3GK, LW+2ST
+     +4: 4GK, CM+CB, LB+2ST
+     +5: 3LW+2ST, 3CAM+2ST, 3ST+2LW
+
+Fernandinho-CDM-91:
+    +5: 3CAM+2ST
+        Nainggolan-CAM-95+Fekir-CAM-95+Laudrup-CAM-95+Icardi-ST-95+Larsson-ST-95
+
+Lampard-CM-98:
+    +3: 2CAM+CB+LW+ST (200T)
+
+Kovacic-CM:
+    +4: CB, CF +CM, 2LW+ST
+    +5: 2ST+CM+CB, 2GK+3CM
+    +6: CM+ST+CF
+	    (115T )2ST-99 + 1ST-98 + 1ST-97 []
+    +7: CM+2ST+2CF
+	    LW+ST+ST+CDM
+
+Goretzka-CM-94
+      +3-96:  ST+CM+CDM+GK+CAM
+                 Arnautovic-ST-94+Kovacic-CM-94+Witsel-CDM-93+Schmeichel-GK-93+Litmanen-CAM-93
+      +4-98:  ST+CM+CDM+GK+CAM
+      +5-100: 5GK
+                 T.Courtois-GK-98-x5
+
+Henderson-CM-91
+    +4: 4ST        
+    +5: CAM+CDM+2ST+CM       
+
+Khedira-CM:
+    +3: 2ST+CM, 2CM+GK+RB, ST+LB+GK 
+             Cavani-ST-95+Modric-CM-95+Werner-ST-91
+             Effenberg-CM-95+Schmeichel-93-GK+Nevillle-RB-93+Saul-CM-90
+             Dejong-CM-95+Oblak-93-GK+Nevillle-RB-93+Partey-CM-90
+             Giroud-ST-94+Hakimi-LB-94+Schmeichel-GK-94
+    +4: 3CM+LW+GK
+             Dejong-CM-95+Oblak-95-GK+Brehme-LW-95B+Golovin-CM-93+Deco-CM-93
+             Icardi-ST-95+Neymar-LW-95+Cancelo-RB-95+Blanc-CB-95
+    +5: 3CM+2ST, 3CAM+2ST, 2GK+3CM
+             Kroos-CM-97+Bennacer-CM-97-x2+Nistelrooy-ST-97+Raul-ST-97
+
+Pogba-CM-91
+     +3: (GK+CM) Seaman-GK-95+Mandragora-CM-91
+     +4: (CAM+LW+2WR) Ikone-CAM-93+Mane-LW-93+Lozano-RW-93-x2
+     +5: (2GK+3CM) Oblak-GK-95+Seaman-GK-95+Vidal-CM-95+Effenberg-CM-95+Jong-CM-95
+
+T.Kroos-CM-98-(+2)-83T
+    +3-99  : (CDM+LW+ST+2CM) Zakaria-CDM-97+Mane-LW-97+Jimenez-ST-97+Jong-CM-96+Verratti-CM-94
+    +4-101 : (RW+LW+2CM) Messi-RW-98+Sterling-LW-98+Lampard-CM-98+Gullit-CM-98+Gerrard-CM-98
+	
+Tolisso-CM-91
+    +3: GK+CM
+        Oblack-GK-95+Tolisso-CM-91
+    +4: CM+LW+2RW, 3GK+CM
+        Tolisso-CM-93(+3)+Pulisic-LW-93+Pires-RW-93-x2
+        Oblak-GK-94-x3+Mandragora-CM-91
+    +5: 2GK+3CM, 4GK+1CM 
+        Oblak-GK-95+Seaman-GK-95+Vidal-CM-95+Effenberg-CM-95+Jong-CM-95
+        Tolisso-CM-95+Oblack-GK-95+Seaman-GK-95-x3
+		
+F. Valverde-CM-90-9T
+     +3-16T: CM+LB, CAM+ST
+     +4-26T: 2GK+LB+ST, 2GK+CAM+ST
+     +5-40T: 2GK+3CM
+     
+F. Valverde-88-CM-9T
+     +3-16T: CAM+ST
+     +4-26T: CAM+ST
+     +5-40T: CAM+ST
+
+Coutinho-CAM-91
+    +3-93: CB+CM
+              Vertongen-CB-95+Allen-CM-92
+     +4-95: 2CB+GK, 2GK+2CB
+              Hierro-CB-94-x2+Schmeichel-GK-94
+              Neuer-GK-95+Pickford-GK-95+Hummel-CB-95+Nesta-CB-95
+     +5-97: 2GK+2CB
+              Neuer-GK-96-x2+Hummel-CB-96+Blanc-CB-95
+			  
+isco-CAM:
+     +3: ST, GK, CM
+     +4: LB, ST, LW, RW, CB, RB, CM
+     +5: LW+ST, RM+CM, CF+CM, CAM+LWB
+     +6: 5LW
+     +7: LW+CF+Isco, 5LW
+	 
+Perisic-LM-94:
+    +3: 2LW+2ST
+    +4: RB+LW+RW+ST, CDM+RM+LW, 2CAM+CF+LW+CB 
+    +5: 2GK+LB+RW+CM
+
+T. Hazard-LM-93:
+          +3: ST+RW, 4ST, 3GK
+          +4: 4LW, 2RW, 4ST
+          +5: 2LW+2LM+CM, 5LW, 
